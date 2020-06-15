@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+#header{
+  padding: 10px 0px -10px 200px;
+  background-color: rgb(255,255, 255);
+}
+.verizon_logo{
+   height: 70px;
+  width: 150px;
+  float: left;
+  margin-top: -50px; 
+  
+}
+#heading{
+  text-align: center;
+  font-weight: 10px ;
+  color: black;
+}
+#text{
+  font-size:13px;
+   display: flex;
+  flex-wrap: wrap; 
+  margin: -10px 20px 50px 30px;
+      
+}
+#footer{
+  border: 1px solid black;
+  background-color: lightblue;
+  margin-top:600px ;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 80px;
+}
+
+.leaflet-container {
+  width: 100%;
+  height: 100vh;
+}
+.tooltip{
+  position: absolute;
+  top:20px;
+  right:20px;
+  z-index: 9999;
+  color: black;
+  background: white;
+  padding: 20px;
+  width:auto;
+}
